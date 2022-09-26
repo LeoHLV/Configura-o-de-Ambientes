@@ -53,11 +53,11 @@ for(int i = 0; i >= Length; i++)
 
 <br><hr>
 
-# Imagem Centralizada com Tamanho
+# Gif com Link 
 <p style="text-align:center;">
 <img width="150" src="https://i0.wp.com/gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2021/02/nyan-cat-1.gif?fit=706%2C610&ssl=1" alt="niaw" />
 
-# Titulo Centralizado com icone Link
+# Titulo com icone Link
 <h1 align="center">
   <br>
   <a href="https://app.codecov.io/login/gh">
