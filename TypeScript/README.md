@@ -1,6 +1,6 @@
 # Configurando-TypeScript
 
-> Necessário possuir <span style="color:#02FFFF"> NODE </span>
+> Necessário possuir NODE
 
 - Instalar Globalmente<br>
 `npm install -g typescript`
@@ -20,22 +20,21 @@
 `npx tsc --init`
 
  # Organizando <br>
- > criar pasta<span style="color:#02FFFF"> src</span> para .ts<br>
- > criar pasta <span style="color:#02FFFF">dest</span> para .js 
+ > criar pasta src para .ts<br>
+ > criar pasta dest para .js 
 
- - Arquivos <span style="color:#64FF00">.ts</span> serão criados dentro da pasta <span style="color:#02FFFF">dest</span> (source)
- - Arquivos <span style="color:#64FF00">.js</span> serão gerados dentro da pasta <span style="color:#02FFFF">dest</span> (destino)
+ - Arquivos .ts serão criados dentro da pasta src (source)
+ - Arquivos .js serão gerados dentro da pasta dest (destino)
 
  # Configurando
  - **package.json** : 
-    Alterando o conteúdo da linha scripts para habilitar conversão automática <span style="color:#64FF00">.ts</span> -> <span style="color:#64FF00">.js</span>
+    Alterando o conteúdo da linha scripts para habilitar conversão automática .ts -> .js
     ```powershell
     "scripts": {
         "start": "tsc --watch"
      },
      ```
- - **tsconfig.json** : procurar ( Ctrl + f ) por <span style="color:#02FFFF">outDir</span> remover <span style="color:#009619">//  </span> e substituir por <span style="color:#02FFFF">"outDir":"./dest" </span>.
-Sempre que salvar, será criado dentro da pasta <span style="color:#02FFFF">dest</span> o arquivo <span style="color:#64FF00">.js</span> condizente ao arquivo <span style="color:#64FF00">.ts</span>
+ - **tsconfig.json** : procurar ( Ctrl + f ) por outDir,  remover // e substituir por "outDir":"./dest". Sempre que salvar, será criado dentro da pasta dest o arquivo .js condizente ao arquivo .ts
 
 
 # Iniciar
