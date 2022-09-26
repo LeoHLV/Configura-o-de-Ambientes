@@ -1,12 +1,3 @@
 # Configurando-Ambientes
 
-## Linguagens
-
-```powershell
-
-├── .NET
-│   ├── C#
-│   └── Web API
-├── TypeScript
-├── Angular
-└── React
+## Cada pasta possui instruções para gerar um ambiente funcional
