@@ -1,7 +1,7 @@
 
  - [Documentação](https://angular.io/docs)
 
-# Instação
+# Instalação
 `npm i @angular/cli` 
 
 # Criar Projeto
