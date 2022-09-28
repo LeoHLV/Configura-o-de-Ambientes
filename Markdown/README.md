@@ -1,4 +1,37 @@
-## Referencias
+# Referencias
+
+# Organização, Talvez UML
+
+```
+├ ┼ │ ─ ┌ ┬ ┐ └ ┴ ┘ ╌ ╎ 
+╽ ╿ ╼ ─◆ ─◇ ─▷ ─▶ ─○ ─●
+
+┌ <<interface>> ┐
+└   Class Pai   ┘
+
+Tree
+╿ 
+├─┬╼ Branch_01
+│ │╼
+│ └╼
+├─┬╼ Branch-02
+│ └─┬╼ Arquivo01.cs
+│   └╼ Arquivo02.cs
+└╼ Info.txt
+```
+
+# Elementos via placeholder 
+- ![#f03c15](https://via.placeholder.com/15/f03c15/f03c15.png) `#f03c15`
+- ![#f03c15](https://via.placeholder.com/15/f03c15/f03c15.png) `#f03c15`
+- ![#c5f015](https://via.placeholder.com/15/c5f015/c5f015.png) `#c5f015`
+- ![#1589F0](https://via.placeholder.com/15/1589F0/1589F0.png) `#1589F0`
+
+[![](https://img.shields.io/badge/github-blue?style=for-the-badge)](https://github.com/hamzamohdzubair/redant)
+[![](https://img.shields.io/badge/book-blueviolet?style=for-the-badge)](https://hamzamohdzubair.github.io/redant/)
+[![](https://img.shields.io/badge/API-yellow?style=for-the-badge)](https://docs.rs/crate/redant/latest)
+[![](https://img.shields.io/badge/Crates.io-orange?style=for-the-badge)](https://crates.io/crates/redant)
+[![](https://img.shields.io/badge/Lib.rs-lightgrey?style=for-the-badge)](https://lib.rs/crates/redant)
+
 
 # Texto
 _italico_  <br>
@@ -30,6 +63,7 @@ Visual Studio 2019 (or [Visual Studio Code](https://code.visualstudio.com/)) <br
 <br><hr>
 
 # Scripts
+
 ```powershell
 var x = 10
 for(int i = 0; i >= Length; i++)
@@ -53,7 +87,29 @@ for(int i = 0; i >= Length; i++)
 
 <br><hr>
 
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+ 
+@@                 Top                  @@
+##              Some Text               ##
+==========================================
+- Coverage   14.44%   13.82%   -0.63%     
+==========================================
+  Files         257      257              
+  Lines        9409     9332      -77     
+  Branches     1085     1055      -30     
+==========================================
+- Error        7927     7920       -7     
++ Acepted       123      122       -1     
+! Deprecated    123      122       -1     
+```
+
 # Gif com Link 
+
 <p style="text-align:center;">
 <img width="150" src="https://i0.wp.com/gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2021/02/nyan-cat-1.gif?fit=706%2C610&ssl=1" alt="niaw" />
 
