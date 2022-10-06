@@ -1,6 +1,6 @@
 # Referencias
 
-# Organização, Talvez UML
+# Organização
 
 ```
 ├ ┼ │ ─ ┌ ┬ ┐ └ ┴ ┘ ╌ ╎ 
@@ -10,13 +10,15 @@
 └   Class Pai   ┘
 
 Tree
-╿ 
-├─┬╼ Branch_01
-│ │╼
-│ └╼
-├─┬╼ Branch-02
-│ └─┬╼ Arquivo01.cs
-│   └╼ Arquivo02.cs
+┬ 
+├─┬──○ Style 01_List 
+│ │──╼ Arquivo01.cs
+│ └──╼ Arquivo01.cs
+│
+├─┬○ Style 02_Branch
+│ └─┬╼ Arquivo01
+│   └╼ Arquivo02
+│
 └╼ Info.txt
 ```
 
@@ -138,3 +140,6 @@ for(int i = 0; i >= Length; i++)
 - [x] Player data
   - [ ] Loading
   - [ ] Saving
+
+# Emojis
+✔️ ❌ ⚪ ⭕ ❗ ❓ ⬜ ✅ ❎ 🆗 ⛔ ⚠️ 📄 🏷️ 📥 📌 🚮 ➡️ ▶️ 🔄 🔀
